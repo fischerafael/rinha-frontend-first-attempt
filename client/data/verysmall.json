@@ -1,0 +1,10 @@
+{
+  "glossary": {
+    "title": "example glossary",
+    "p2": "p2",
+    "empty": "",
+    "teams": {
+      "primary": ["main", { "age": 10 }]
+    }
+  }
+}
