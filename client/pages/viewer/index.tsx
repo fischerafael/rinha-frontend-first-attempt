@@ -1,9 +1,11 @@
 import React from "react";
 import verySmallJson from "../../data/verysmall.json";
 import alltypes from "../../data/alltypes.json";
+import giant from "../../data/giant.json";
+import large from "../../data/large.json";
 
 export const PageViewer = () => {
-  return <JSONRender json={alltypes} />;
+  return <JSONRender json={verySmallJson} />;
 };
 
 const JSONRender = ({ json }: { json: any }) => {
